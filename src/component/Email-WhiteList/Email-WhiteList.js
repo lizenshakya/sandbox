@@ -33,10 +33,10 @@ const EmailWhiteList = () => {
                 case 'dev':
                     apiUrl = 'https://dev-api.yorba.app/v1/email-whitelist'
                     break;
-                case 'prod':
+                case 'staging':
                     apiUrl = 'https://staging-api.yorba.app/v1/email-whitelist'
                     break;
-                case 'staging':
+                case 'prod':
                     apiUrl = 'https://api.yorba.app/v1/email-whitelist'
                     break;
                 default:
